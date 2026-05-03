@@ -1,0 +1,13 @@
+site_id,site_name,latitude,longitude,salinity_psu,temp_c,dissolved_oxygen_mg_l,depth_m,shoreline_habitat,season_window
+SITE-001,PackeryMarshEdge,27.64,-97.31,21.2,29.8,6.0,1.6,marsh,Summer
+SITE-002,LagunaShallowFlat,27.72,-97.43,24.8,30.0,6.1,1.4,seagrass,Summer
+SITE-003,AransasBackBay,27.86,-97.08,23.4,29.4,6.1,2.1,marsh,Summer
+SITE-004,CorpusShipChannelEdge,27.79,-97.23,31.8,27.6,6.2,4.8,shoreline,Fall
+SITE-005,CedarBayouInner,28.10,-96.92,27.1,26.5,6.6,3.8,marsh,Fall
+SITE-006,MatagordaPassNorth,28.57,-95.94,30.6,21.2,7.1,5.2,shoreline,Winter
+SITE-007,MatagordaBayWest,28.64,-96.18,28.9,23.5,6.8,3.9,seagrass,Fall
+SITE-008,UpperLagunaProtectedCove,27.83,-97.54,19.1,30.6,5.7,1.4,marsh,Summer
+SITE-009,CorpusBayReefMargin,27.98,-97.17,23.2,28.9,6.4,2.7,seagrass,Spring
+SITE-010,EstuaryTransitionZone,28.33,-96.48,27.9,25.0,6.5,3.4,seagrass,Fall
+SITE-011,InletShoalSouth,27.60,-97.28,20.8,29.7,6.3,2.2,marsh,Summer
+SITE-012,MidBayCoolPocket,28.49,-96.30,30.4,21.7,7.0,4.2,marsh,Winter

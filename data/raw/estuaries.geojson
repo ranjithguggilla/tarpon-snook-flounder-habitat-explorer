@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "name": "texas_estuary_demo",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "estuary_id": "EST-01",
+        "name": "UpperLagunaMadre"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-97.75, 27.95],
+          [-97.35, 27.95],
+          [-97.35, 27.55],
+          [-97.75, 27.55],
+          [-97.75, 27.95]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estuary_id": "EST-02",
+        "name": "CorpusBayComplex"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-97.55, 28.10],
+          [-96.95, 28.10],
+          [-96.95, 27.70],
+          [-97.55, 27.70],
+          [-97.55, 28.10]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estuary_id": "EST-03",
+        "name": "MatagordaBay"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.60, 28.95],
+          [-95.85, 28.95],
+          [-95.85, 28.35],
+          [-96.60, 28.35],
+          [-96.60, 28.95]
+        ]]
+      }
+    }
+  ]
+}

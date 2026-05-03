@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "name": "texas_inlets_demo",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "inlet_id": "INL-01",
+        "name": "PackeryChannel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.30, 27.62]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "inlet_id": "INL-02",
+        "name": "AransasPass"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.07, 27.84]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "inlet_id": "INL-03",
+        "name": "CedarBayouPass"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.93, 28.11]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "inlet_id": "INL-04",
+        "name": "MatagordaShipChannel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.95, 28.58]
+      }
+    }
+  ]
+}

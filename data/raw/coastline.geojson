@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "name": "texas_coastline_demo",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "COAST-01",
+        "name": "TexasCoastDemoSegment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-97.75, 27.30],
+          [-97.45, 27.65],
+          [-97.10, 27.95],
+          [-96.85, 28.20],
+          [-96.45, 28.55],
+          [-96.00, 28.95]
+        ]
+      }
+    }
+  ]
+}

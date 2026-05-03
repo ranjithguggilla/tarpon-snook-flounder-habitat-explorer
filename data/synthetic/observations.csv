@@ -1,0 +1,11 @@
+obs_id,species,month,latitude,longitude,life_stage,salinity_psu,temp_c,dissolved_oxygen_mg_l,depth_m
+OBS-001,Tarpon,6,27.71,-97.30,juvenile,20.5,29.2,6.1,1.8
+OBS-002,Tarpon,7,27.78,-97.18,juvenile,18.9,30.1,5.8,2.3
+OBS-003,Tarpon,8,27.90,-97.09,juvenile,22.1,30.8,5.7,2.0
+OBS-004,Snook,5,27.68,-97.34,juvenile,24.4,28.1,6.4,1.5
+OBS-005,Snook,7,27.83,-97.14,juvenile,23.1,29.7,6.0,1.9
+OBS-006,Snook,9,27.96,-96.99,subadult,25.7,28.6,6.2,2.8
+OBS-007,Southern Flounder,10,28.21,-96.74,juvenile,30.2,24.9,6.7,3.6
+OBS-008,Southern Flounder,11,28.42,-96.25,juvenile,27.8,22.7,6.9,4.1
+OBS-009,Southern Flounder,12,28.56,-95.98,subadult,29.1,20.4,7.1,5.0
+OBS-010,Southern Flounder,1,28.47,-96.15,subadult,31.0,18.8,7.3,4.7
