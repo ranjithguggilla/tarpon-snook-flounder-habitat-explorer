@@ -127,6 +127,16 @@ You can also persist files into `outputs/` via the in-app button.
 
 ![Tarpon/Snook/Flounder dashboard walkthrough](assets/gifs/demo-overview.gif)
 
+### Dashboard screenshots
+
+| View | Preview |
+|------|---------|
+| Tarpon (May) overview map | ![Tarpon overview](assets/screenshots/01-overview-tarpon-may.png) |
+| Ranked sites table + summary/export actions | ![Ranked sites table](assets/screenshots/02-ranked-sites-table.png) |
+| Ranked table detail view | ![Ranked table detail](assets/screenshots/03-ranked-table-detail.png) |
+| Snook filter with site popup | ![Snook filter map popup](assets/screenshots/04-snook-filter-map-popup.png) |
+| Southern flounder filtered map | ![Southern flounder filter map](assets/screenshots/05-southern-flounder-filter-map.png) |
+
 ## Why this is useful
 
 - Supports transparent, reproducible survey planning discussions.
