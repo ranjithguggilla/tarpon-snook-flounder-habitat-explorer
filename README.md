@@ -1,6 +1,8 @@
-# Tarpon, Snook & Southern Flounder Habitat Prioritization Demo
+# tarpon-snook-flounder-habitat-explorer
 
-This prototype is a public-data-safe geospatial workflow inspired by HRI/CSSC research themes around juvenile tarpon, snook, and Southern Flounder habitat characterization. It demonstrates how Python, GIS layers, environmental covariates, and simple scoring logic can support survey planning, habitat exploration, and reproducible research outputs.
+Geospatial habitat prioritization demo — species filters, environmental covariates, survey ranking.
+
+This prototype is a public-data-safe geospatial workflow focused on juvenile tarpon, snook, and Southern flounder habitat exploration. It demonstrates how Python, GIS layers, environmental covariates, and simple scoring logic can support survey planning, habitat exploration, and reproducible research outputs.
 
 ## What this demo does
 
@@ -118,6 +120,12 @@ You can export filtered ranking results directly from the UI as:
 - GeoJSON (`habitat_priority.geojson`)
 
 You can also persist files into `outputs/` via the in-app button.
+
+## Demo media
+
+- Walkthrough GIF: `assets/gifs/demo-overview.gif`
+
+![Tarpon/Snook/Flounder dashboard walkthrough](assets/gifs/demo-overview.gif)
 
 ## Why this is useful
 
