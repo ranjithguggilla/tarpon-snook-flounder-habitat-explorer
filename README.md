@@ -4,13 +4,6 @@ Geospatial habitat prioritization demo — species filters, environmental covari
 
 This prototype is a public-data-safe geospatial workflow focused on juvenile tarpon, snook, and Southern flounder habitat exploration. It demonstrates how Python, GIS layers, environmental covariates, and simple scoring logic can support survey planning, habitat exploration, and reproducible research outputs.
 
-## Data & limitations
-
-- **Public-data-safe:** Synthetic and openly licensed demonstration layers and observations only—see **Data provenance** below.
-- **No internal HRI/CSSC data:** This repository does **not** use confidential, restricted, or internal datasets from HRI, CSSC, or partner fishery programs.
-- **Prototype:** Not biological inference, stock assessment, or management-grade output; expert review remains required.
-- **Ecological scope:** Rule-based **decision-support scaffolding** only—not a validated prediction of fish occurrence or abundance.
-
 ## What this demo does
 
 - Loads boundary-style coastline, estuary, and inlet layers.
@@ -18,6 +11,10 @@ This prototype is a public-data-safe geospatial workflow focused on juvenile tar
 - Computes a transparent 0-100 habitat score for each candidate survey site.
 - Labels sites as High/Medium/Low survey priority.
 - Provides species and month filtering, map view, ranked table, and export buttons.
+
+## Important limitation
+
+This is **decision-support scaffolding**, not a validated ecological prediction model. It does not claim to predict true fish occurrence.
 
 ## Project structure
 
@@ -89,8 +86,6 @@ make setup
 make run
 ```
 
-**Contributors on GitHub:** after clone, run `git config core.hooksPath .githooks` once so commits never pick up automated `Co-authored-by` trailers (GitHub lists those as separate contributors). In Cursor, turn off co-author injection in Git settings if it is enabled.
-
 ### Quick troubleshooting
 
 - If you see `requirements.txt` or `app.py` not found, run `pwd` and confirm you are inside the `tarpon-snook-flounder-habitat-explorer` project root (the folder that contains `app.py`).
@@ -140,7 +135,7 @@ You can also persist files into `outputs/` via the in-app button.
 | Snook filter with site popup | ![Snook filter map popup](assets/screenshots/04-snook-filter-map-popup.png) |
 | Southern flounder filtered map | ![Southern flounder filter map](assets/screenshots/05-southern-flounder-filter-map.png) |
 
-## How this could support research workflows
+## Why this is useful
 
 - Supports transparent, reproducible survey planning discussions.
 - Makes spatial and seasonal assumptions explicit and auditable.
